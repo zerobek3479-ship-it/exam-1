@@ -1,0 +1,77 @@
+.s-asos {
+  padding: 40px 8%;
+}
+
+.s-setka {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.s-karta {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  transition: 0.3s;
+}
+
+.s-karta:hover {
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.s-rasm {
+  width: 100px;
+  height: 100px;
+  background: #e5e5e5;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.s-info {
+  flex: 1;
+}
+
+.s-tepa {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.s-ism {
+  font-size: 16px;
+  color: #111;
+}
+
+.s-kasb {
+  color: #888;
+  font-size: 13px;
+}
+
+.s-nuqta {
+  color: #ddd;
+}
+
+.s-yulduz {
+  color: #00cbcb;
+  display: flex;
+  font-size: 11px;
+}
+
+.s-matn {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Telefonlar uchun */
+@media (max-width: 850px) {
+  .s-setka { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,119 @@
+.a-asos {
+  padding: 40px 8%;
+}
+
+.a-blok {
+  display: flex;
+  gap: 20px;
+}
+
+
+.a-banner {
+  flex: 1;
+  background: #111;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  min-width: 280px;
+  width: 338px;
+  height: 390px;
+}
+.a-matn h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.a-matn p {
+  color: #888;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+.a-grid {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.c-item {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.c-item:hover {
+  border-color: #00cbcb;
+}
+
+.c-rasm {
+  width: 70px;
+  height: 70px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.c-rasm img {
+  width: 85%;
+  object-fit: contain;
+}
+
+.c-narx {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.yangi {
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+}
+.eski {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.c-nomi {
+  font-size: 13px;
+  color: #333;
+  margin: 4px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c-reyt {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+}
+.yulduz {
+  color: #00cbcb;
+  display: flex;
+}
+.sharh {
+  color: #888;
+}
+
+
+@media (max-width: 1100px) {
+  .a-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 850px) {
+  .a-blok {
+    flex-direction: column;
+  }
+}

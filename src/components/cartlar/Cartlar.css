@@ -1,0 +1,98 @@
+.cartlar-sektsiya {
+  padding: 50px 8%;
+  background: white;
+}
+
+.f-tepa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.f-sarlavha {
+  font-size: 26px;
+  font-weight: bold;
+  color: #222;
+}
+
+.f-tugmalar {
+  display: flex;
+  gap: 10px;
+}
+
+.f-tugmalar button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.six-cart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+
+.k-karta {
+  background: #f7f8f9; 
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  gap: 20px;
+  min-height: 200px;
+}
+.k-karta:hover{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+
+}
+.r-joyi {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.m-cart {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-nomi {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.m-tekst {
+  font-size: 13px;
+  color: #777;
+  margin: 2px 0;
+}
+
+.m-link {
+  background: none;
+  border: none;
+  color: #00cbcb; 
+  font-weight: bold;
+  font-size: 13px;
+  text-align: left;
+  padding: 0;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .six-cart { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .six-cart { grid-template-columns: 1fr; }
+}

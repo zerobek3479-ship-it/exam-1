@@ -1,0 +1,196 @@
+.f-sektsiya {
+  padding: 50px 8%;
+  background: white;
+}
+
+.f-tepa {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.f-sarlavha {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.f-tugmalar {
+  display: flex;
+  gap: 10px;
+}
+
+.f-tugmalar button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+.f-blok {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 20px;
+}
+
+.f-karta {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  border: 1px solid #eee;
+}
+
+.r-qismi {
+  background: white;
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.r-qismi img {
+  max-width: 0%;
+}
+
+.belgilar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.yangi {
+  background: black;
+  color: white;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.chegirma {
+  background: #00f2f2;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.fastar{
+  color: #00f2f2;
+
+}
+
+.m-nomi {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.m-narx {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.eski {
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.m-rang {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.rang-nuqta {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+.m-yulduz {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.m-sharh {
+  color: #888;
+  margin-left: 5px;
+}
+
+.ombor-yozuv {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #666;
+}
+
+.m-chiziq {
+  height: 5px;
+  background: #ddd;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+
+.m-tolish {
+  height: 100%;
+  background: black;
+  border-radius: 5px;
+}
+
+.m-vaqt {
+  display: flex;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.v-blok {
+  background: #00f2f2;
+  width: 38px;
+  height: 38px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.v-blok span {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.v-blok p {
+  font-size: 7px;
+  margin: 0;
+}
+
+.savat-tugma {
+  width: 100%;
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: bold;
+}

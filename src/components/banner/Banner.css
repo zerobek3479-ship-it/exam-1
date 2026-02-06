@@ -1,0 +1,79 @@
+.b-asos {
+  padding: 50px 8%;
+}
+
+.b-konteyner {
+  background: linear-gradient(90deg, #fceceb, #ffffff, #e6f4f1);
+  border-radius: 20px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b-chap {
+  max-width: 450px;
+}
+
+.b-sarlavha {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+.b-royhat {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.b-punkt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.b-icon {
+  font-size: 20px;
+}
+
+.b-ong {
+  text-align: right;
+}
+.eski-narx {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+.yangi-narx {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 5px 0;
+}
+
+.chegirma-matn {
+  font-size: 13px;
+  color: #555;
+  width: 180px;
+  margin-left: auto;
+}
+
+.b-tugma {
+  background: #111;
+  color: #fff;
+  padding: 15px 45px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.b-tugma:hover {
+  background: #00cbcb;
+}

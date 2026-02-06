@@ -1,0 +1,136 @@
+.main-header {
+  background: #fff;
+  width: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.search-wrapper {
+  display: flex;
+  background: #f5f5f5;
+  border-radius: 6px;
+  width: 500px;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: none;
+  padding: 12px;
+  outline: none;
+}
+
+.category-select {
+  border: none;
+  background: none;
+  border-left: 1px solid #ccc;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.search-button {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+.search-button svg {
+  font-size: 20px;
+}
+.action-btn svg {
+  font-size: 24px;
+  color: #1a1a1a;
+}
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header-bottom {
+  padding: 10px 0;
+}
+
+.categories-btn {
+  background: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.stores-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.stores-info svg {
+  font-size: 22px;
+}
+.store-text {
+  display: flex;
+  flex-direction: column;
+}
+.store-title {
+  font-size: 13px;
+  font-weight: bold;
+}
+.store-subtitle {
+  font-size: 11px;
+  color: #888;
+}
