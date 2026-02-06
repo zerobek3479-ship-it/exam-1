@@ -1,13 +1,12 @@
-import React from 'react';
-import { FaApple, FaPlay, FaBluetoothB, FaMicrochip } from 'react-icons/fa';
-import { IoBatteryFullSharp } from 'react-icons/io5';
-import './Hero.css';
+import React from "react";
+import { FaApple, FaPlay, FaBluetoothB, FaMicrochip } from "react-icons/fa";
+import { IoBatteryFullSharp } from "react-icons/io5";
+import "./Hero.css";
 
 const Hero = () => {
   return (
     <section className="hero-main">
       <div className="container hero-container">
-        
         <div className="hero-content">
           <div className="brand-label">
             <FaApple />
@@ -55,7 +54,6 @@ const Hero = () => {
           <span className="dot"></span>
           <span className="dot"></span>
         </div>
-
       </div>
     </section>
   );

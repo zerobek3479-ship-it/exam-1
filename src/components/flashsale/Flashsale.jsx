@@ -1,17 +1,27 @@
-import React from 'react';
-import { FaStar, FaShoppingCart, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import './flashsale.css';
+import React from "react";
+import {
+  FaStar,
+  FaShoppingCart,
+  FaChevronLeft,
+  FaChevronRight,
+} from "react-icons/fa";
+import "./flashsale.css";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Flashsale = () => {
   return (
-      <div className="f-sektsiya">
-        <div className="f-tepa">
-          <h2 className="f-sarlavha">Tezkor Savdo</h2>
-          <div className="f-tugmalar">
-            <button className="t-chap">👈</button>
-            <button className="t-ong">👉</button>
-          </div>
+    <div className="f-sektsiya">
+      <div className="f-tepa">
+        <h2 className="f-sarlavha">Tezkor Savdo</h2>
+        <div className="f-tugmalar">
+          <button className="t-chap">
+            <IoIosArrowBack />
+          </button>
+          <button className="t-ong">
+            <IoIosArrowForward />
+          </button>
         </div>
+      </div>
 
       <div className="f-blok">
         <div className="f-karta">
@@ -20,7 +30,10 @@ const Flashsale = () => {
               <span className="yangi">Yangi</span>
               <span className="chegirma">10%</span>
             </div>
-            <img src="https://resource.logitech.com/w_600,c_limit,q_auto,f_auto,dpr_2.0/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-top-view-graphite.png" alt="sichqoncha" />
+            <img
+              src="https://resource.logitech.com/w_600,c_limit,q_auto,f_auto,dpr_2.0/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-top-view-graphite.png"
+              alt="sichqoncha"
+            />
           </div>
 
           <div className="m-qismi">
@@ -31,9 +44,18 @@ const Flashsale = () => {
             </div>
 
             <div className="m-rang">
-              <div className="rang-nuqta" style={{ backgroundColor: '#111' }}></div>
-              <div className="rang-nuqta" style={{ backgroundColor: '#ccc' }}></div>
-              <div className="rang-nuqta" style={{ backgroundColor: '#fff' }}></div>
+              <div
+                className="rang-nuqta"
+                style={{ backgroundColor: "#111" }}
+              ></div>
+              <div
+                className="rang-nuqta"
+                style={{ backgroundColor: "#ccc" }}
+              ></div>
+              <div
+                className="rang-nuqta"
+                style={{ backgroundColor: "#fff" }}
+              ></div>
             </div>
 
             <div className="m-yulduz">
@@ -51,15 +73,27 @@ const Flashsale = () => {
                 <span>Qoldi: 64</span>
               </div>
               <div className="m-chiziq">
-                <div className="m-tolish" style={{ width: '25%' }}></div>
+                <div className="m-tolish" style={{ width: "25%" }}></div>
               </div>
             </div>
 
             <div className="m-vaqt">
-              <div className="v-blok"><span>02</span><p>day</p></div>
-              <div className="v-blok"><span>23</span><p>hour</p></div>
-              <div className="v-blok"><span>14</span><p>Minute</p></div>
-              <div className="v-blok"><span>56</span><p>Second</p></div>
+              <div className="v-blok">
+                <span>02</span>
+                <p>day</p>
+              </div>
+              <div className="v-blok">
+                <span>23</span>
+                <p>hour</p>
+              </div>
+              <div className="v-blok">
+                <span>14</span>
+                <p>Minute</p>
+              </div>
+              <div className="v-blok">
+                <span>56</span>
+                <p>Second</p>
+              </div>
             </div>
 
             <button className="savat-tugma">
@@ -74,7 +108,10 @@ const Flashsale = () => {
             <div className="belgilar">
               <span className="chegirma">10%</span>
             </div>
-            <img src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-edge-listing-thumb-01-en-23aug22" alt="pult" />
+            <img
+              src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-edge-listing-thumb-01-en-23aug22"
+              alt="pult"
+            />
           </div>
 
           <div className="m-qismi">
@@ -85,15 +122,21 @@ const Flashsale = () => {
             </div>
 
             <div className="m-rang">
-              <div className="rang-nuqta" style={{ backgroundColor: '#111' }}></div>
-              <div className="rang-nuqta" style={{ backgroundColor: '#fff' }}></div>
+              <div
+                className="rang-nuqta"
+                style={{ backgroundColor: "#111" }}
+              ></div>
+              <div
+                className="rang-nuqta"
+                style={{ backgroundColor: "#fff" }}
+              ></div>
             </div>
 
             <div className="m-yulduz">
-              <FaStar className='fastar' />
-              <FaStar className='fastar' />
-              <FaStar className='fastar' />
-              <FaStar className='fastar' />
+              <FaStar className="fastar" />
+              <FaStar className="fastar" />
+              <FaStar className="fastar" />
+              <FaStar className="fastar" />
               <FaStar color="#ddd" />
               <span className="m-sharh">12 Sharh</span>
             </div>
@@ -104,15 +147,27 @@ const Flashsale = () => {
                 <span>Qoldi: 64</span>
               </div>
               <div className="m-chiziq">
-                <div className="m-tolish" style={{ width: '25%' }}></div>
+                <div className="m-tolish" style={{ width: "25%" }}></div>
               </div>
             </div>
 
             <div className="m-vaqt">
-              <div className="v-blok"><span>02</span><p>day</p></div>
-              <div className="v-blok"><span>23</span><p>hour</p></div>
-              <div className="v-blok"><span>14</span><p>Minute</p></div>
-              <div className="v-blok"><span>56</span><p>Second</p></div>
+              <div className="v-blok">
+                <span>02</span>
+                <p>day</p>
+              </div>
+              <div className="v-blok">
+                <span>23</span>
+                <p>hour</p>
+              </div>
+              <div className="v-blok">
+                <span>14</span>
+                <p>Minute</p>
+              </div>
+              <div className="v-blok">
+                <span>56</span>
+                <p>Second</p>
+              </div>
             </div>
 
             <button className="savat-tugma">

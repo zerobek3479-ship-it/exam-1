@@ -1,4 +1,4 @@
-/* Card.css */
+
 
 .cards-asos {
   padding: 20px 8%;
@@ -37,7 +37,7 @@
 
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 talik ustun */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 20px;
 }
 
@@ -95,7 +95,6 @@
   overflow: hidden;
 }
 
-/* Telefonlar uchun */
 @media (max-width: 1000px) {
   .cards-grid {
     grid-template-columns: repeat(2, 1fr);

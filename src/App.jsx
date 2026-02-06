@@ -1,20 +1,19 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Four from "./components/four/Four";
 import Flashsale from "./components/flashsale/Flashsale";
 import Cartlar from "./components/cartlar/Cartlar";
 import Arrivals from "./components/arrivals/Arrivals";
-
-import Sale from './components/sale/Sale';
-import Card from './components/card/Card';
-import Banner from './components/banner/Banner';
-import Apples from './components/apples/Apples';
-import Second from './components/second/Second';
-import Choose from './components/choose/Choose';
-import Footer from './components/footer/Footer';
-import Carts from './components/carts/Carts';
+import Sale from "./components/sale/Sale";
+import Card from "./components/card/Card";
+import Banner from "./components/banner/Banner";
+import Apples from "./components/apples/Apples";
+import Second from "./components/second/Second";
+import Choose from "./components/choose/Choose";
+import Footer from "./components/footer/Footer";
+import Carts from "./components/carts/Carts";
 
 const malumotlar = [
   {
@@ -68,49 +67,74 @@ const malumotlar = [
 ];
 const two = [
   {
-    title:'Keyboard',
-    bigtitle:'Sale 20% off',
-    button:'Shop Now'
+    title: "Keyboard",
+    bigtitle: "Sale 20% off",
+    button: "Shop Now",
   },
   {
-    title:'Keyboard',
-    bigtitle:'Sale 20% off',
-    button:'Shop Now'
+    title: "Keyboard",
+    bigtitle: "Sale 20% off",
+    button: "Shop Now",
   },
-]
+];
 const datatwo = [
   {
     name: "Anna Jean",
     job: "Graphic Designer",
-    text: "Lorem ipsum dolor sit amet consectetur. Dis volutpat semper semper tortor id maecenas pharetra. Dignissim sed vitae tristique risus interdum viverra odio."
+    text: "Lorem ipsum dolor sit amet consectetur...",
   },
   {
     name: "Albert Flores",
     job: "Doctor",
-    text: "Lorem ipsum dolor sit amet consectetur. Dis volutpat semper semper tortor id maecenas pharetra. Dignissim sed vitae tristique risus interdum viverra odio."
-  }
+    text: "Lorem ipsum dolor sit amet consectetur...",
+  },
 ];
-const service = ["My Account", "Payments", "Term of Use", "Deliveries & Returns", "Gift Card"];
-const about = ["Product", "Our Story", "Job Opportunities", "Store Locator", "Blog"];
-
-
+const service = [
+  "My Account",
+  "Payments",
+  "Term of Use",
+  "Deliveries & Returns",
+  "Gift Card",
+];
+const about = [
+  "Product",
+  "Our Story",
+  "Job Opportunities",
+  "Store Locator",
+  "Blog",
+];
 
 function App() {
   return (
     <Router>
       <Header />
-      <Hero />
-      <Four />
-      <Flashsale />
-      <Cartlar data={malumotlar} />
-      <Arrivals />
-      <Carts/>
-      <Sale two={two}/>
-      <Card/>
-      <Banner/>
-      <Apples data={datatwo}/>
-      <Second data={datatwo}/>
-      <Choose/>
+  
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Four />
+              <Flashsale />
+              <Cartlar data={malumotlar} />
+              <Arrivals />
+              <Carts />
+              <Sale two={two} />
+              <Card />
+              <Banner />
+              <Apples data={datatwo} />
+              <Second data={datatwo} />
+              <Choose />
+            </>
+          }
+        />
+
+        <Route path="/flash-sale" element={<Flashsale />} />
+        <Route path="/cart" element={<Carts />} />
+        <Route path="/products" element={<Cartlar />} />
+      </Routes>
+
       <Footer services={service} about={about} />
     </Router>
   );

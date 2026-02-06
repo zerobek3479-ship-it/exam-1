@@ -1,25 +1,26 @@
-import React from 'react';
+import React from "react";
 import "./Cartlar.css";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Cartlar = ({ data }) => {
   return (
-    <div className='cartlar-sektsiya'>
-     
+    <div className="cartlar-sektsiya">
       <div className="f-tepa">
-        <h2 className="f-sarlavha">Categories</h2>
+        <h2 className="f-sarlavha">Tezkor Savdo</h2>
         <div className="f-tugmalar">
-          <button className="t-chap">👈</button>
-          <button className="t-ong">👉</button>
+          <button className="t-chap">
+            <IoIosArrowBack />
+          </button>
+          <button className="t-ong">
+            <IoIosArrowForward />
+          </button>
         </div>
       </div>
 
-    
       <div className="six-cart">
         {data.map((item, index) => (
           <div key={index} className="k-karta">
-            <div className="r-joyi">
-              
-            </div>
+            <div className="r-joyi"></div>
             <div className="m-cart">
               <h3 className="m-nomi">{item.nomi}</h3>
               <p className="m-tekst">{item.t1}</p>
