@@ -12,7 +12,7 @@ const Apples = () => {
         <h2 className="header-title">Tezkor Savdo</h2>
         <div className="header-nav">
           <button className="nav-btn"><IoIosArrowBack /></button>
-          <button className="nav-btn active"><IoIosArrowForward /></button>
+          <button className="nav-btn "><IoIosArrowForward /></button>
         </div>
       </div>
 

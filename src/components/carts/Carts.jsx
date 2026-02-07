@@ -1,38 +1,41 @@
-import "./Carts.css"
-import { DATA } from "../../components/index"
+import "./Carts.css";
+import { DATA } from "../../components/index";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Cards = () => {
   return (
-    <div className="cards-asos">
-        <div className="f-tepa">
-          <h2 className="f-sarlavha">Tezkor Savdo</h2>
-          <div className="f-tugmalar">
-             <button className="t-chap"><IoIosArrowBack /></button>
-          <button className="t-ong"><IoIosArrowForward /></button>
-          </div>
+    <div className="wrapper">
+      <div className="head">
+        <h2 className="title">Tezkor Savdo</h2>
+        <div className="nav">
+          <button className="btn"><IoIosArrowBack /></button>
+          <button className="btn"><IoIosArrowForward /></button>
         </div>
-      <div className="cards-grid">
+      </div>
+
+      <div className="grid">
         {DATA.map((item, index) => (
-          <div key={index} className="c-karta">
-            <div className="c-rasm">
-              <img src={item.img} alt="img" />
-              {item.skidka && <span className="c-skidka">{item.skidka}</span>}
-            </div>
-            
-            <div className="c-matn">
-              <div className="c-narx">
-                <span className="c-p">${item.price}</span>
-                {item.old && <span className="c-o">${item.old}</span>}
+          <div key={index} className="item">
+            <div className="card">
+              <div className="img-box">
+                <img src={item.img} alt="" className="pic" />
+                {item.skidka && <span className="tag">{item.skidka}</span>}
               </div>
-              <p className="c-title">{item.title}</p>
-              <b className="c-rate">⭐ {item.rate}</b>
+              
+              <div className="info">
+                <div className="prices">
+                  <span className="now">${item.price}</span>
+                  {item.old && <span className="old">${item.old}</span>}
+                </div>
+                <h3 className="name">{item.title}</h3>
+                <div className="rate">⭐ {item.rate}</div>
+              </div>
             </div>
           </div>
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Cards
+export default Cards;

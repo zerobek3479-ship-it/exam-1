@@ -25,7 +25,6 @@
   border-radius: 50%;
   border: none;
   background: #f0f0f0;
-  cursor: pointer;
 }
 
 .f-blok {
@@ -187,7 +186,6 @@
   border: none;
   padding: 10px;
   border-radius: 5px;
-  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;

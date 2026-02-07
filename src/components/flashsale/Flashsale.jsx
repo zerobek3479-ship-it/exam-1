@@ -5,7 +5,7 @@ import {
   FaChevronLeft,
   FaChevronRight,
 } from "react-icons/fa";
-import "./flashsale.css";
+import "./Flashsale.css";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Flashsale = () => {

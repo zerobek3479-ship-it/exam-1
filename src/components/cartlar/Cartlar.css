@@ -28,7 +28,6 @@
   border: none;
   background: #333;
   color: white;
-  cursor: pointer;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -49,11 +48,7 @@
   gap: 20px;
   min-height: 200px;
 }
-.k-karta:hover{
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  transition: all 0.3s ease;
 
-}
 .r-joyi {
   width: 100px;
   height: 100px;
@@ -86,7 +81,6 @@
   text-align: left;
   padding: 0;
   margin-top: 15px;
-  cursor: pointer;
 }
 
 @media (max-width: 1024px) {

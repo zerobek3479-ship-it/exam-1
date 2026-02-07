@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
 
         <div className="slider-dots">
-          <span className="dot active"></span>
+          <span className="dot "></span>
           <span className="dot"></span>
           <span className="dot"></span>
         </div>

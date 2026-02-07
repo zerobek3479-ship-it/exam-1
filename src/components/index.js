@@ -102,7 +102,7 @@ export const CARD = [
 export const PRODUCT = [
   {
     id: 1,
-    img: "https://user-images.githubusercontent.com/2803622/219980557-3ca978ee-8e49-4a1b-8ab1-951d5ad7e2e2.png",
+    img: "https://avatars.mds.yandex.net/i?id=bbeb341e533f1b28e8b21c9e6d6637002b6a613c-4590054-images-thumbs&n=13",
     price: "55.00",
     old: "85.00",
     title: "JBL Bluetooth..",
@@ -110,7 +110,7 @@ export const PRODUCT = [
   },
   {
     id: 2,
-    img: "https://user-images.githubusercontent.com/2803622/219980557-3ca978ee-8e49-4a1b-8ab1-951d5ad7e2e2.png",
+    img: "https://avatars.mds.yandex.net/i?id=bbeb341e533f1b28e8b21c9e6d6637002b6a613c-4590054-images-thumbs&n=13",
     price: "895.00",
     old: "985.00",
     title: "Mac mini M2 512GB..",
@@ -118,7 +118,7 @@ export const PRODUCT = [
   },
   {
     id: 3,
-    img: "https://user-images.githubusercontent.com/2803622/219980557-3ca978ee-8e49-4a1b-8ab1-951d5ad7e2e2.png",
+    img: "https://avatars.mds.yandex.net/i?id=bbeb341e533f1b28e8b21c9e6d6637002b6a613c-4590054-images-thumbs&n=13",
     price: "65.00",
     old: "85.00",
     title: "Logitech Wireless..",
@@ -126,7 +126,7 @@ export const PRODUCT = [
   },
   {
     id: 4,
-    img: "https://user-images.githubusercontent.com/2803622/219980557-3ca978ee-8e49-4a1b-8ab1-951d5ad7e2e2.png",
+    img: "https://avatars.mds.yandex.net/i?id=bbeb341e533f1b28e8b21c9e6d6637002b6a613c-4590054-images-thumbs&n=13",
     price: "155.00",
     old: "185.00",
     title: "C270 HD Webcam..",
@@ -134,7 +134,7 @@ export const PRODUCT = [
   },
   {
     id: 5,
-    img: "https://user-images.githubusercontent.com/2803622/219980557-3ca978ee-8e49-4a1b-8ab1-951d5ad7e2e2.png",
+    img: "https://avatars.mds.yandex.net/i?id=bbeb341e533f1b28e8b21c9e6d6637002b6a613c-4590054-images-thumbs&n=13",
     price: "855.00",
     old: "885.00",
     title: "Iphone 14 Pro Max 128GB..",
@@ -142,7 +142,7 @@ export const PRODUCT = [
   },
   {
     id: 6,
-    img: "https://user-images.githubusercontent.com/2803622/219980557-3ca978ee-8e49-4a1b-8ab1-951d5ad7e2e2.png",
+    img: "https://avatars.mds.yandex.net/i?id=bbeb341e533f1b28e8b21c9e6d6637002b6a613c-4590054-images-thumbs&n=13",
     price: "45.00",
     old: "85.00",
     title: "JBL Bluetooth Speaker..",
@@ -150,7 +150,7 @@ export const PRODUCT = [
   },
   {
     id: 7,
-    img: "https://user-images.githubusercontent.com/2803622/219980557-3ca978ee-8e49-4a1b-8ab1-951d5ad7e2e2.png",
+    img: "https://avatars.mds.yandex.net/i?id=bbeb341e533f1b28e8b21c9e6d6637002b6a613c-4590054-images-thumbs&n=13",
     price: "125.00",
     old: "185.00",
     title: "JBL Gaming Headset..",
@@ -158,7 +158,7 @@ export const PRODUCT = [
   },
   {
     id: 8,
-    img: "https://user-images.githubusercontent.com/2803622/219980557-3ca978ee-8e49-4a1b-8ab1-951d5ad7e2e2.png",
+    img: "https://avatars.mds.yandex.net/i?id=bbeb341e533f1b28e8b21c9e6d6637002b6a613c-4590054-images-thumbs&n=13",
     price: "105.00",
     old: "125.00",
     title: "Marine Camera..",
@@ -166,7 +166,7 @@ export const PRODUCT = [
   },
   {
     id: 9,
-    img: "https://user-images.githubusercontent.com/2803622/219980557-3ca978ee-8e49-4a1b-8ab1-951d5ad7e2e2.png",
+    img: "https://avatars.mds.yandex.net/i?id=bbeb341e533f1b28e8b21c9e6d6637002b6a613c-4590054-images-thumbs&n=13",
     price: "145.00",
     old: "185.00",
     title: "Beats Solo3 Wireless..",

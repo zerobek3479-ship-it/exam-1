@@ -13,7 +13,7 @@ const Choose = () => {
 
         <div className="brand-list">
           <div className="brand-item"></div>
-          <div className="brand-item active"></div> 
+          <div className="brand-item "></div> 
           <div className="brand-item"></div>
           <div className="brand-item"></div>
           <div className="brand-item"></div>

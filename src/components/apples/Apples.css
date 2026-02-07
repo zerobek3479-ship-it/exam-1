@@ -25,28 +25,22 @@
   height: 38px;
   border-radius: 50%;
   border: 1px solid #eee;
-  background: #fff;
-  cursor: pointer;
+  background: #353333;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.3s;
+  color: #fff;
 }
 
-.nav-btn.active, .nav-btn:hover {
-  background: #00cbcb;
-  color: white;
-  border-color: #00cbcb;
-}
+
+
 
 .apples-content {
   display: flex;
   gap: 20px;
 }
 
-
 .apples-banner {
-  flex: 1;
   background: #111;
   border-radius: 12px;
   padding: 40px 20px;
@@ -83,14 +77,10 @@
   display: flex;
   padding: 12px;
   align-items: center;
-  transition: 0.3s ease;
   background: #fff;
 }
 
-.product-mini-card:hover {
-  border-color: #00cbcb;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-}
+
 
 .card-img-box {
   width: 80px;
@@ -136,7 +126,6 @@
   font-size: 14px;
   color: #444;
   margin-bottom: 6px;
-  
 }
 
 .rating-row {
@@ -156,17 +145,28 @@
   font-size: 12px;
 }
 
-
 @media (max-width: 1250px) {
-  .apples-grid { grid-template-columns: repeat(2, 1fr); }
+  .apples-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 950px) {
-  .apples-content { flex-direction: column; }
-  .apples-banner { width: 100%; height: auto; min-height: 250px; }
-  .apples-grid { grid-template-columns: repeat(2, 1fr); }
+  .apples-content {
+    flex-direction: column;
+  }
+  .apples-banner {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+  }
+  .apples-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
-  .apples-grid { grid-template-columns: 1fr; }
+  .apples-grid {
+    grid-template-columns: 1fr;
+  }
 }

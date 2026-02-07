@@ -69,11 +69,6 @@
   border: none;
   border-radius: 10px;
   font-weight: bold;
-  cursor: pointer;
   margin-top: 20px;
-  transition: 0.3s;
 }
 
-.b-tugma:hover {
-  background: #00cbcb;
-}

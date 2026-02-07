@@ -13,7 +13,6 @@ const Sale = ({two}) => {
                   <h3 className="s-big">{item.bigtitle}</h3>
                   <button className="s-btn">{item.button}</button>
                 </div>
-                {/* Agar rasm bo'lsa shu yerda chiqadi */}
                 {item.img && <img src={item.img} alt="img" className="s-img" />}
               </div>
             )

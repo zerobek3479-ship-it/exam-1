@@ -9,7 +9,7 @@ const Card = () => {
         <h2 className="f-sarlavha">Categories</h2>
         <div className="f-tugmalar">
           <button className="t-chap"><IoIosArrowBack /></button>
-          <button className="t-ong active"><IoIosArrowForward /></button>
+          <button className="t-ong "><IoIosArrowForward /></button>
         </div>
       </div>
 

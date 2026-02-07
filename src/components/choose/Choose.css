@@ -15,23 +15,13 @@
   align-items: center;
   gap: 15px;
   overflow: hidden; 
-  flex: 1;
 }
 
 .brand-item {
-  min-width: 120px;
+  width: 120px;
   height: 120px;
   background: #c9c7c7;
   border-radius: 10px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-
-.brand-item:hover {
-  background: #fff;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  transform: translateY(-5px);
 }
 
 .slider-arrow {
@@ -44,16 +34,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   font-size: 20px;
-  transition: 0.3s;
   flex-shrink: 0;
 }
 
-.slider-arrow:hover {
-  background: #00cbcb;
-  
-}
+
 
 @media (max-width: 900px) {
   .brand-item {
