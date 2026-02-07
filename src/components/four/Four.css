@@ -1,23 +1,22 @@
 .four-section {
   display: flex;
   width: 100%;
+  min-height: 100px;
   flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .four-item {
-  min-width: 250px;
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 25px 20px;
   gap: 15px;
-  padding: 35px 10px;
 }
 
 .cyan-bg {
-  background-color: #00f2f2;
-  color: #000;
+  background-color: #3df9f1;
+  color: #111;
 }
 
 .dark-bg {
@@ -26,34 +25,43 @@
 }
 
 .four-icon {
-  font-size: 32px;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.four-icon svg {
+  font-size: 38px;
+  stroke-width: 1.5px;
+}
+
+.four-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .four-title {
-  font-size: 13px;
-  font-weight: 800;
   margin: 0;
+  font-size: 14px;
+  font-weight: 800;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 .four-desc {
-  font-size: 11px;
-  margin: 4px 0 0;
-  opacity: 0.8;
-  font-weight: 500;
+  margin: 4px 0 0 0;
+  font-size: 12px;
+  font-weight: 400;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .four-item {
-    flex: 0 0 50%;
+    flex: 50%;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .four-item {
-    flex: 0 0 100%;
+    flex: 100%;
   }
 }
